@@ -1,0 +1,49 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">Mad about Math</string>
+
+    <string name="intro">Greetings traveler! </string>
+    <string name="image_discr">App logo</string>
+    <string name="start">lets go!</string>
+    <string name="restart">clear!</string>
+    <string name="help">need help? (-1 Point)</string>
+
+    <string name="question1">Whats is the sum of the numbers 1 to 10</string>
+    <string name="answer_hint_1">check Gaussian Series</string>
+    <string name="answer1a">52</string>
+    <string name="answer1b">54</string>
+    <string name="answer1c">55</string>
+    <string name="answer1d">58</string>
+
+    <string name="question2">Which of the fallowing names are a branch of mathematics</string>
+    <string name="answer_hint_2">Only two of them are right!</string>
+    <string name="answer2a">analysis</string>
+    <string name="answer2b">enginerring</string>
+    <string name="answer2c">computer science</string>
+    <string name="answer2d">algebra</string>
+
+    <string name="question3">What is the solution of fallowing equation: 6/2(2+2) -2 </string>
+    <string name="answer_hint_3"> What is the right execution order of the operators? </string>
+    <string name="answer3">10</string>
+
+    <string name="question4">Olivia\'s dad has 4 childern. Joseph, James, John are the names of 3 Childern. What is the name of the last one ?</string>
+    <string name="answer_hint_4">read the question slowly and loud</string>
+    <string name="answer4a">Julia</string>
+    <string name="answer4b">Olivia</string>
+    <string name="answer4c">Jessica</string>
+    <string name="answer4d">Amelia</string>
+
+    <string name="question5">After which famous mathematictian were named two constants</string>
+    <string name="answer_hint_5">The symbols of the constants are \u03b3 and \u212f </string>
+    <string name="answer5">Euler</string>
+
+    <string name="hint">Type your answer here</string>
+    <string name="submit">Submit!</string>
+
+    <string name="summary_massage_intro">You are <xliff:g id="totalPoints" example ="50">%1$.1f</xliff:g>%% mad about Math! \n\nHere is the rating of every answer: </string>
+    <string name="summary_answer">\nQuestion <xliff:g id="questionid" example="1">%1$d</xliff:g> scoring <xliff:g id="points" example="1">%2$d</xliff:g> Points: <xliff:g id="summary_WoR" example= "Wrong!">%3$s</xliff:g></string>
+    <string name="summary_wrong">WRONG!</string>
+    <string name="summary_right">RIGHT!</string>
+    <string name="summary_end">\n\nThank you for using my QuizApp!</string>
+</resources>
