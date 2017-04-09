@@ -42,7 +42,7 @@ public class Quizmaster extends AppCompatActivity {
     /**
      * defines if the hints were used
      *
-     * @param view
+     *
      */
     public void help(View view) {
         CheckBox helpBox = (CheckBox) findViewById(view.getId());
@@ -88,8 +88,7 @@ public class Quizmaster extends AppCompatActivity {
     }
 
     /**
-     * @param view
-     * @TODO write commentation on this
+     * This method checks if the answers are correct!
      */
     public void validateAnswers(View view) {
         boolean firstQuestion = answerChecker(R.id.complete_q1);
@@ -103,9 +102,9 @@ public class Quizmaster extends AppCompatActivity {
     }
 
     /**
-     * @param idQuestion
-     * @return
-     * @TODO write commentation on this
+     * @param idQuestion Id of the question which is going to be checked
+     * @return if the answer was correct!
+     * This method validates each answer by using id of the question as a argument
      */
     private boolean answerChecker(int idQuestion) {
         if (idQuestion == R.id.complete_q1) {
@@ -153,10 +152,9 @@ public class Quizmaster extends AppCompatActivity {
     }
 
     /**
-     * @param answers
-     * @param usedHints
-     * @TODO validate Quiz
-     * @TODO write commentation on this
+     * @param answers contains as a boolean array all answers
+     * @param usedHints contains as an integer array if for a question i a hint was used
+     * This method is calculating the final score of the quiz!
      */
     private String validateQuiz(boolean[] answers, int[] usedHints) {
         int points[] = {0, 0, 0, 0, 0, 0};

@@ -26,6 +26,7 @@
         android:layout_gravity="center_horizontal"
         android:layout_margin="10dp"
         android:text="@string/intro"
+        android:gravity="center_horizontal"
         android:textSize="20sp" />
 
     <Button

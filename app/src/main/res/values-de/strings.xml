@@ -1,0 +1,27 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="answer2a">Analysis</string>
+    <string name="answer2b">Ingenieurwissenschaften</string>
+    <string name="answer2c">Informatik</string>
+    <string name="answer2d">Algebra</string>
+    <string name="answer_hint_1">Betrachte den kleinen Gauß!</string>
+    <string name="answer_hint_2">Nur zwei Möglichkeiten sind richtig!</string>
+    <string name="answer_hint_3">Beachte Punkt vor Strich!</string>
+    <string name="answer_hint_4">Ließ die Frage langsam und laut vor!</string>
+    <string name="answer_hint_5">Die Konstanten sind γ und ℯ</string>
+    <string name="help">Brauchen Sie hilfe ? (-1 Punkt)</string>
+    <string name="hint" translatable="false">Schreiben Sie ihre Antwort hier rein!</string>
+    <string name="intro">Seid Gegrüßt! \nSind Sie bereit rauszufinden, wie genervt Sie von Mathe sind?</string>
+    <string name="question1">Was ist die Summe der Zahlen von 1 bis 10?</string>
+    <string name="question2">Welche der folgenden Begriffe sind Namen für mathematische Gebiete?</string>
+    <string name="question3">Wie lautet die Lösungen der Gleichung: 6/2(2+2) -2 ?</string>
+    <string name="question4">Olivias Vater hat 4 Kinder. Joseph, James, John und ? Wie lautet der Name des vierten Kindes?</string>
+    <string name="question5">"Nach welchen berühmten Mathematiker wurden zwei Konstanten genannt? "</string>
+    <string name="start">Teste dein Wissen!</string>
+    <string name="summary_answer">\nFrage <xliff:g id="questionid" example="1">%1$d</xliff:g> bewertet mit <xliff:g id="points" example="1">%2$d</xliff:g> Punkten: <xliff:g id="summary_WoR" example="Wrong!">%3$s</xliff:g></string>
+    <string name="submit">Bestätige!</string>
+    <string name="summary_end">Danke, dass Sie meine App benutzt haben!</string>
+    <string name="summary_massage_intro">Du verzweifelst zu <xliff:g id="totalPoints" example="50">%1$.1f</xliff:g>%%  über Mathematik!\n\nHier sind die Bewertungen über deine Antworten:</string>
+    <string name="summary_right">RICHTIG!</string>
+    <string name="summary_wrong">FALSCH!</string>
+</resources>
